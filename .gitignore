@@ -1,0 +1,19 @@
+# Logs de Airflow
+logs/
+
+# Base de datos SQLite generada
+data/ventas.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Entorno virtual (si usas uno local)
+venv/
+env/
+
+# Archivos temporales de Windows
+Thumbs.db
+desktop.ini

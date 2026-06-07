@@ -1,0 +1,13 @@
+# Dependencias para correr los scripts ETL localmente (sin Docker)
+# Para correr con Airflow usar docker-compose.yml — las dependencias
+# dentro del contenedor se instalan automáticamente via _PIP_ADDITIONAL_REQUIREMENTS
+ 
+pandas==2.2.2
+numpy==1.26.4
+requests==2.31.0
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+ 
+# Solo necesario si corres etl_ventas.py localmente (SQLite viene incluido en Python)
+# sqlite3 — incluido en Python, no requiere instalación
+ 
